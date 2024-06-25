@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "LisAlgorithm.Console": {
+      "commandName": "Project"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "distributionName": ""
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

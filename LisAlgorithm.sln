@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LisAlgorithm.Application", "LisAlgorithm.Application\LisAlgorithm.Application.csproj", "{CF3EEA25-249B-49C1-91F4-9A634CBBAB39}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{23F5B44C-3555-48B3-85BA-7AE1315E956B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{B00F3202-11D3-4194-9350-00BF64A26866}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LisAlgorithm.Console", "LisAlgorithm.Console\LisAlgorithm.Console.csproj", "{BB258E93-E485-4845-81EF-63A4EDF97D30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{4AEF31A6-9166-4F84-8CF8-F44B954B8681}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LisAlgorithm.Test", "LisAlgorithm.Test\LisAlgorithm.Test.csproj", "{EB4FEF54-2DC2-4B52-8283-DE88BFFB710F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF3EEA25-249B-49C1-91F4-9A634CBBAB39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3EEA25-249B-49C1-91F4-9A634CBBAB39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3EEA25-249B-49C1-91F4-9A634CBBAB39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3EEA25-249B-49C1-91F4-9A634CBBAB39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB258E93-E485-4845-81EF-63A4EDF97D30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB258E93-E485-4845-81EF-63A4EDF97D30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB258E93-E485-4845-81EF-63A4EDF97D30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB258E93-E485-4845-81EF-63A4EDF97D30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4FEF54-2DC2-4B52-8283-DE88BFFB710F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4FEF54-2DC2-4B52-8283-DE88BFFB710F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4FEF54-2DC2-4B52-8283-DE88BFFB710F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4FEF54-2DC2-4B52-8283-DE88BFFB710F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF3EEA25-249B-49C1-91F4-9A634CBBAB39} = {23F5B44C-3555-48B3-85BA-7AE1315E956B}
+		{BB258E93-E485-4845-81EF-63A4EDF97D30} = {B00F3202-11D3-4194-9350-00BF64A26866}
+		{EB4FEF54-2DC2-4B52-8283-DE88BFFB710F} = {4AEF31A6-9166-4F84-8CF8-F44B954B8681}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC24BDE3-CCFB-4579-BE63-703958F8EECE}
+	EndGlobalSection
+EndGlobal
